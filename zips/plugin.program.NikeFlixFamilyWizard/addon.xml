@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.NikeFlixFamilyWizard" name="NikeFlix Family Wizard" version="4.0.1" provider-name="TanDMoss">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">NikeFlix Family</summary>
+        <description lang="en">Installs and updates the NikeFlix Family build: verified downloads, five profiles, no start-up pop-ups. It never erases a device's existing Family profiles: those devices move with the NikeFlix migration, which keeps each person's sign-ins and watch history.</description>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later AND BSD-3-Clause</license>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://github.com/a4k-openproject/plugin.program.openwizard</source>
+        <news>
+4.0.1
+ - New look: a home card with the build artwork and one clear button (Install, Update or Reinstall)
+ - Everything is asked once, up front; a phased progress screen replaces the chain of pop-ups
+ - Backup, restore and maintenance under Tools, in the same style
+ - Christmas artwork from December 1 to December 26, by date
+4.0.0
+ - NikeFlix Family next generation (Kodi 21.3): new nikeflix-family-dist build feed with sha256 verification
+ - Fresh devices: clean five-profile install (safety backup first)
+ - Devices with Family profiles: never erased; they move with the NikeFlix migration
+ - Installs the build's add-on origin seed and the official-only update settings
+ - Optional Fen 4 fallback installer (from its author, hash-verified)
+ - No start-up pop-ups in any profile; semantic version checks; verified self-update
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
