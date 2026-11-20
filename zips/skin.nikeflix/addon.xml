@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Skin NikeFlix: a GPL-2.0 derivative of Titan BINGIE MOD 2.2.8. See NOTICE.md, CREDITS.md and NIKEFLIX-CHANGES.md. -->
-<addon id="skin.nikeflix" version="1.1.13" name="Skin NikeFlix" provider-name="NikeFlix (based on Titan by marcelveldt, Titan BINGIE by cartman.dos, Titan BINGIE MOD by AchillesPunks &amp; Matke)">
+<addon id="skin.nikeflix" version="1.2.0" name="Skin NikeFlix" provider-name="NikeFlix (based on Titan by marcelveldt, Titan BINGIE by cartman.dos, Titan BINGIE MOD by AchillesPunks &amp; Matke)">
 	<requires>
 		<import version="5.17.0" addon="xbmc.gui"/>
 		<import addon="script.bingie.helper" version="1.1.2"/>
@@ -40,7 +40,7 @@
 			<screenshot>resources/screenshot009.jpg</screenshot>
 		</assets>
 		<news>
-			[B]Skin NikeFlix 1.1.13[/B][CR]Switch profile waits until the profile has settled and its background services stand still, so a switch no longer hangs Kodi or has to kill them. During playback it stops playback first. It closes only the power menu; with another window open it asks you to close it and try again. Opening Home no longer rewrites skin settings that are already set.[CR][B]Skin NikeFlix 1.0.0[/B][CR]First NikeFlix release, forked from Titan BINGIE MOD 2.2.8. See NIKEFLIX-CHANGES.md.
+			[B]Skin NikeFlix 1.2.0 (NikeFlix 4.1)[/B][CR]The Netflix look: Who's watching? with profile pictures, a top menu (Search, Home, Shows, Movies, Live, My NikeFlix, weather, profile menu), wide cards, Top 10 rank numbers, a title page with Episodes, a Live sports hub with scores, NikeFlix Settings, and Search with a Netflix keyboard.[CR][B]Skin NikeFlix 1.1.13[/B][CR]Switch profile waits until the profile has settled and its background services stand still, so a switch no longer hangs Kodi or has to kill them. During playback it stops playback first. It closes only the power menu; with another window open it asks you to close it and try again. Opening Home no longer rewrites skin settings that are already set.[CR][B]Skin NikeFlix 1.0.0[/B][CR]First NikeFlix release, forked from Titan BINGIE MOD 2.2.8. See NIKEFLIX-CHANGES.md.
 		</news>
 	</extension>
 </addon>
