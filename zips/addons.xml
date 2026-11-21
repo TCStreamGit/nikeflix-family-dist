@@ -1802,7 +1802,7 @@ provider-name="jurialmunkey">
   </assets>
 </extension>
 </addon>
-<addon id="service.nikeflix" name="NikeFlix Service" version="0.3.2" provider-name="NikeFlix">
+<addon id="service.nikeflix" name="NikeFlix Service" version="0.3.3" provider-name="NikeFlix">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
