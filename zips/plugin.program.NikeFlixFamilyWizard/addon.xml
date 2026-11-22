@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.NikeFlixFamilyWizard" name="NikeFlix Family Wizard" version="4.0.1" provider-name="TanDMoss">
+<addon id="plugin.program.NikeFlixFamilyWizard" name="NikeFlix Family Wizard" version="4.0.2" provider-name="TanDMoss">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -21,6 +21,8 @@
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source>https://github.com/a4k-openproject/plugin.program.openwizard</source>
         <news>
+4.0.2
+ - Apple TV: a clean install now replaces Kodi's stored settings too, so the new build's profiles and settings appear
 4.0.1
  - New look: a home card with the build artwork and one clear button (Install, Update or Reinstall)
  - Everything is asked once, up front; a phased progress screen replaces the chain of pop-ups
