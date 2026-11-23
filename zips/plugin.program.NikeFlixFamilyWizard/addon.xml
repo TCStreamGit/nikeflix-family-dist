@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.NikeFlixFamilyWizard" name="NikeFlix Family Wizard" version="4.0.3" provider-name="TanDMoss">
+<addon id="plugin.program.NikeFlixFamilyWizard" name="NikeFlix Family Wizard" version="4.0.4" provider-name="TanDMoss">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -21,6 +21,11 @@
         <reuselanguageinvoker>false</reuselanguageinvoker>
         <source>https://github.com/a4k-openproject/plugin.program.openwizard</source>
         <news>
+4.0.4
+ - Update from any profile: the wizard opens in every profile, and Update installs the new version in place (every profile and sign-in kept)
+ - The skin in use is updated too (file by file when it cannot be moved)
+ - A device set up from the build archive (not through the wizard) is updated too
+ - Updating keeps Fen and every add-on that is not part of NikeFlix as it was; a Fen that an earlier update switched off is switched back on
 4.0.3
  - Updates reach every profile: the daily build check and the in-place update no longer wait for the master profile
  - An update that is interrupted (a profile switch, Kodi closing) stops at once and is tried again at the next start after an hour
@@ -31,13 +36,7 @@
  - Everything is asked once, up front; a phased progress screen replaces the chain of pop-ups
  - Backup, restore and maintenance under Tools, in the same style
  - Christmas artwork from December 1 to December 26, by date
-4.0.0
- - NikeFlix Family next generation (Kodi 21.3): new nikeflix-family-dist build feed with sha256 verification
- - Fresh devices: clean five-profile install (safety backup first)
- - Devices with Family profiles: never erased; they move with the NikeFlix migration
- - Installs the build's add-on origin seed and the official-only update settings
- - Optional Fen 4 fallback installer (from its author, hash-verified)
- - No start-up pop-ups in any profile; semantic version checks; verified self-update
+4.0.0 and earlier: see the NikeFlix release notes
         </news>
         <assets>
             <icon>icon.png</icon>

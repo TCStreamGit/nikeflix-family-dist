@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Skin NikeFlix: a GPL-2.0 derivative of Titan BINGIE MOD 2.2.8. See NOTICE.md, CREDITS.md and NIKEFLIX-CHANGES.md. -->
-<addon id="skin.nikeflix" version="1.3.4" name="Skin NikeFlix" provider-name="NikeFlix (based on Titan by marcelveldt, Titan BINGIE by cartman.dos, Titan BINGIE MOD by AchillesPunks &amp; Matke)">
+<addon id="skin.nikeflix" version="1.3.5" name="Skin NikeFlix" provider-name="NikeFlix (based on Titan by marcelveldt, Titan BINGIE by cartman.dos, Titan BINGIE MOD by AchillesPunks &amp; Matke)">
 	<requires>
 		<import version="5.17.0" addon="xbmc.gui"/>
 		<import addon="script.bingie.helper" version="1.1.2"/>
@@ -40,7 +40,7 @@
 			<screenshot>resources/screenshot009.jpg</screenshot>
 		</assets>
 		<news>
-			[B]Skin NikeFlix 1.3.4 (NikeFlix 4.1.6)[/B][CR]Choose a profile: nothing cut off on the left, a white outline round the focused profile. Home opens with the first row already showing big. No black card while moving along a row. Notices as a small bar at the bottom.[CR][CR][B]Skin NikeFlix 1.3.3 (NikeFlix 4.1.5)[/B][CR]Loading screen, Skip Intro, Next Episode, Still Watching and Netflix-style subtitles.
+			[B]Skin NikeFlix 1.3.5 (NikeFlix 4.1.7)[/B][CR]Title page: Resume and Play first, the rest under More..., full-screen art, and after Stop you are back on it. Skipping Intro shows when an intro is skipped. No pop-up notices.[CR][CR][B]Skin NikeFlix 1.3.4 (NikeFlix 4.1.6)[/B][CR]Choose a profile: nothing cut off on the left, a white outline round the focused profile. Home opens with the first row already showing big. No black card while moving along a row. Notices as a small bar at the bottom.[CR][CR][B]Skin NikeFlix 1.3.3 (NikeFlix 4.1.5)[/B][CR]Loading screen, Skip Intro, Next Episode, Still Watching and Netflix-style subtitles.
 		</news>
 	</extension>
 </addon>
